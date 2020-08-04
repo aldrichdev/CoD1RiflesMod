@@ -1,0 +1,21 @@
+First set up a halftime variable at the top of the code
+
+Then find in AWE a place where the code handles SD round ending and put in this logic:
+
+1. check that we are currently half way through the match; in other words, make sure the current round number is half the max rounds number + 1. if we are NOT currently halfway, do not switch, otherwise do the switch
+
+I.E. 8 rounds: we want to switch on round 5, so check that the current round is 8/2 + 1 = 5
+
+3. to do the switch follow the contents of the Do_Half_Time() function in _pam_sd.gsc for cod1. steps:
+
+a. first switch scores. first make a backup variable of the axis score. then set the axis score to allies score and the allies score to the backup variable score of axis. 
+
+b. then switch the players. loop through all players, and if they are on axis, set their pers[team] to allies, and vice versa for allies. then in the IF statemets save the player's savedmodel to a var like axisssavedmodel and alliessavedmodel.
+
+c. then, swap the models. if the player is on axis, set their savedmodel to axisssavedmodel, etc vice versa for allies
+
+d. make players drop weapons and put them in spec
+
+e. swap the head icons
+
+f. respawn all players with the correct weapons.

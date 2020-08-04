@@ -1,0 +1,95 @@
+{
+	map		"mp_bocage"
+	longname	"Bocage"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_brecourt"
+	longname	"Brecourt"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_carentan"
+	longname	"Carentan"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_chateau"
+	longname	"The Chateau"
+	gametype	"dm tdm htf actf lts re bel hq"
+}
+
+{
+	map		"mp_dawnville"
+	longname	"Dawnville"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_depot"
+	longname	"The Depot"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_harbor"
+	longname	"The Harbor"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_hurtgen"
+	longname	"Hurtgen"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_neuville"
+	longname	"Neuville"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_pavlov"
+	longname	"Pavlov"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_powcamp"
+	longname	"P.O.W Camp"
+	gametype	"dm tdm htf actf lts re sd rsd dem bel hq"
+}
+
+{
+	map		"mp_railyard"
+	longname	"The Railyard"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_rocket"
+	longname	"Rocket base"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_ship"
+	longname	"The Ship"
+	gametype	"dm tdm htf actf lts re bel hq"
+}
+
+{
+	map		"mp_stalingrad"
+	longname	"Stalingrad"
+	gametype	"dm tdm htf actf lts sd rsd dem re bel hq"
+}
+
+{
+	map		"mp_tigertown"
+	longname	"Tigertown"
+	gametype	"dm tdm htf sd re bel hq actf lts rsd dem"
+}

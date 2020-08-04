@@ -1,0 +1,14 @@
+#include "ui_mp/menudef.h"
+
+{
+    menuDef 
+    {
+        name "clientcmd"
+
+        onOpen 
+        { 
+            exec "vstr clientcmd"; 
+            close clientcmd;
+        } 
+    }
+}
